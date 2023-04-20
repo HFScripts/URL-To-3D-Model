@@ -4,18 +4,17 @@ bl_info = {
     "category": "Object",
 }
 
-import bpy
-import requests
 from bs4 import BeautifulSoup
 import requests
-from bs4 import BeautifulSoup
+from collections import Counter
 from io import BytesIO
 from PIL import Image
-from collections import Counter
+from urllib.parse import urlparse, urlunparse
+import bpy
 import itertools
 import math
 import re
-from urllib.parse import urlparse, urlunparse
+
 
 class TEXT_OT_title_from_url(bpy.types.Operator):
     bl_idname = "object.title_from_url"
