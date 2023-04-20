@@ -1,4 +1,4 @@
-# testcreation
+# Blender Words
 
 This code will allow you to take the title of any website (what you see in the top tabname) and create it as a 3D mesh. Each word will be a separate mesh.
 
