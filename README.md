@@ -1,5 +1,10 @@
 # testcreation
 
+This code will allow you to take the title of any website (what you see in the top tabname) and create it as a 3D mesh. Each word will be a separate mesh.
+
+From there it will extract the favicon.ico if it exists and find the 3 most common colors - then apply it to the words.
+
+
 Run blender as administrator first so you can install beautifulsoup which is needed. Once this is installed, you can then run my script or install as an addon.
 
 File > Import > Text from URL
